@@ -1,6 +1,6 @@
 
 
-###配置文件修改
+### 配置文件修改
 
 1、修改数据库配置：
 把以下代码中的`hostname`、`password`、`database`改为你自己的配置，通样，其他环境下的database文件也相应修改。
@@ -25,11 +25,10 @@ application/wechat/config/production/wechat.php
 application/wechat/config/production/redis.php
 ```
 
-###微信支付官方SDK代码修改及注意事项
+### 微信支付官方SDK代码修改及注意事项
 
-1. wxpay/example/WxPay.JsApiPay.php
-
+1、wxpay/example/WxPay.JsApiPay.php
 头部引用文件改为绝对引用
 require_once "../lib/WxPay.Api.php" → require_once dirname(__FILE__) . "/../lib/WxPay.Api.php"
 
-2.微信支付发起的url,要以/结尾
+2、微信支付发起的url,要以/结尾
