@@ -11,5 +11,8 @@ $config['app_path'] = 'http://dev.wx.hello1010.com/';
 $config['log_path'] = './logs/';
 $config['log_file_prefix'] = 'wechat';
 
+//站点cookie域
+$config['cookie_domain']	= 'hello1010.com';
+
 $config['test_social_id'] = 'oJ3afuBiuYESFeS-QY2WWNqr2DA8';
 $config['is_wx'] = false;

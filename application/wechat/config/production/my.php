@@ -12,7 +12,7 @@ $config['log_path'] = './logs/';
 $config['log_file_prefix'] = 'wechat';
 
 //站点cookie域
-$config['cookie_domain']	= 'hobaby.cc';
+$config['cookie_domain']	= 'hello1010.com';
 
 $config['is_wx'] = true;
 
